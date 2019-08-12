@@ -37,6 +37,12 @@ describe ("sayHello", function() {
     });
     it('should return the string "Hello, Jane!" when passed Jane', function () {
         expect(typeof sayHello("Jane")).toBe("string");
-
+    });
+    it('should return the string "Hello, Alex!" when passed Alex', function () {
+        expect(typeof sayHello("alex")).toBe("string");
+    });
+    it('should return the string "Hello, Pat!" when passed Pat', function () {
+        expect(typeof sayHello("Pat")).toBe("string");
     });
 });
+
